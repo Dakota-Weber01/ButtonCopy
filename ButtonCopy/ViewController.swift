@@ -8,8 +8,18 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController
+{
+    
+    @IBOutlet weak var Switch: UISwitch!
+    @IBAction func Switch(_ sender: Any)
 
+    private func invertColor() -> UIColor
+    {
+    let invertColor :UIColor
+    let UIColor =  CGFloat(ReversedIndex(newColor())
+    }
+    
     @IBOutlet weak var Button: UIButton!
     
     @IBAction func buttonMethod(_ sender: Any)
@@ -28,7 +38,7 @@ class ViewController: UIViewController {
         let greenValue = CGFloat(Double(arc4random_uniform(256)) / 255.00)
         let blueValue = CGFloat(Double(arc4random_uniform(256)) / 255.00)
         newColor = UIColor(red: redValue, green: greenValue, blue: blueValue)
-        return newColor
+
     }
     
     override func viewDidLoad()
@@ -45,3 +55,4 @@ class ViewController: UIViewController {
 
 }
 
+}
