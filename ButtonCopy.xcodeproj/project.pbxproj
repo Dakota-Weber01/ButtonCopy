@@ -8,15 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		4BAF6C2D1F8FF58D00D3BA37 /* SecondScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAF6C2C1F8FF58D00D3BA37 /* SecondScreenController.swift */; };
+		4BAF6C301F8FF9A300D3BA37 /* ColorTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAF6C2F1F8FF9A300D3BA37 /* ColorTools.swift */; };
 		4BD4A40E1F8D3C2300BEF93A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD4A40D1F8D3C2300BEF93A /* AppDelegate.swift */; };
 		4BD4A4101F8D3C2300BEF93A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD4A40F1F8D3C2300BEF93A /* ViewController.swift */; };
 		4BD4A4131F8D3C2300BEF93A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BD4A4111F8D3C2300BEF93A /* Main.storyboard */; };
 		4BD4A4151F8D3C2300BEF93A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BD4A4141F8D3C2300BEF93A /* Assets.xcassets */; };
 		4BD4A4181F8D3C2300BEF93A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BD4A4161F8D3C2300BEF93A /* LaunchScreen.storyboard */; };
+		4BFE53F11F953A0F009DBDB6 /* ThirdScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFE53F01F953A0F009DBDB6 /* ThirdScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4BAF6C2C1F8FF58D00D3BA37 /* SecondScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreenController.swift; sourceTree = "<group>"; };
+		4BAF6C2F1F8FF9A300D3BA37 /* ColorTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTools.swift; sourceTree = "<group>"; };
 		4BD4A40A1F8D3C2300BEF93A /* ButtonCopy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ButtonCopy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BD4A40D1F8D3C2300BEF93A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4BD4A40F1F8D3C2300BEF93A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		4BD4A4141F8D3C2300BEF93A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4BD4A4171F8D3C2300BEF93A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4BD4A4191F8D3C2300BEF93A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BFE53F01F953A0F009DBDB6 /* ThirdScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdScreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +41,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4BAF6C2E1F8FF98B00D3BA37 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4BAF6C2F1F8FF9A300D3BA37 /* ColorTools.swift */,
+				4BFE53F01F953A0F009DBDB6 /* ThirdScreenViewController.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		4BD4A4011F8D3C2300BEF93A = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +69,7 @@
 		4BD4A40C1F8D3C2300BEF93A /* ButtonCopy */ = {
 			isa = PBXGroup;
 			children = (
+				4BAF6C2E1F8FF98B00D3BA37 /* Model */,
 				4BD4A40D1F8D3C2300BEF93A /* AppDelegate.swift */,
 				4BD4A40F1F8D3C2300BEF93A /* ViewController.swift */,
 				4BD4A4111F8D3C2300BEF93A /* Main.storyboard */,
@@ -140,8 +154,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4BD4A4101F8D3C2300BEF93A /* ViewController.swift in Sources */,
+				4BFE53F11F953A0F009DBDB6 /* ThirdScreenViewController.swift in Sources */,
 				4BD4A40E1F8D3C2300BEF93A /* AppDelegate.swift in Sources */,
 				4BAF6C2D1F8FF58D00D3BA37 /* SecondScreenController.swift in Sources */,
+				4BAF6C301F8FF9A300D3BA37 /* ColorTools.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
